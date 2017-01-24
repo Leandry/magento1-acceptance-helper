@@ -9,6 +9,7 @@ The main extension purpose is to provide an ability to execute some platform ope
 - Remove customer by email
 - Remove subscriber by email
 - Remove order by number
+- Reindex each index
 TBM
 
 ## Installation
@@ -56,3 +57,8 @@ http://your.site.com/index.php/acceptancehelper/index/removesubscribtion/email/c
 http://your.site.com//index.php/acceptancehelper/index/removeorder/order/orderNumber
 ```
 `orderNumber` here is an order number.
+
+### Reindex each index
+```
+http://your.site.com/index.php/acceptancehelper/index/reindex
+```
